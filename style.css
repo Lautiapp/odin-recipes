@@ -1,15 +1,31 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
 #title {
-    background-color: red;
     font-weight: 800;
+    margin: 50px auto;
+    text-align: center;
+    border: 2px solid blueviolet;
+    width: 400px;
+    padding: 20px;
+    background: #e3f4ff;
 }
 
 .main {
     font-family: "Arial", sans-serif;
+
 }
 
 h1 {
-    background-color: blueviolet;
     font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 50px auto;
 }
 
 li,
@@ -21,8 +37,70 @@ h2 {
     font-size: 28px;
     background-color: orange;
     color: white;
+    text-align: center;
+    margin: 50px auto;
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
 }
 
 p {
     font-size: 20px;
+    text-align: center;
+}
+
+.centered {
+    text-align: center;
+
+}
+
+.centered ul {
+    padding: 20px;
+    width: 400px;
+    margin: auto;
+}
+
+.centered li {
+    margin: 10px auto;
+    display: inline-block;
+    border: 2px solid red;
+    padding: 10px;
+    
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    margin-bottom: 70px;
+}
+
+.ingredients {
+    text-align: left;
+    padding: 10px;
+    margin: 50px auto;
+    width: 400px;
+    border: 2px solid green;
+    border-radius: 15px;
+    background-color: antiquewhite;
+}
+
+h3 {
+    text-align: center;
+}
+
+ol {
+    text-align: left;
+    padding: 10px;
+    margin: 10px auto;
+    width: 400px;
+}
+
+.steps {
+    border: 2px solid green;
+    border-radius: 15px;
+    width: 450px;
+    margin: 50px auto;
+    background-color: antiquewhite;
 }
